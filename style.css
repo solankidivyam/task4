@@ -1,0 +1,156 @@
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.logo{
+  color: #83E1FF;
+  font-size: 4rem;
+}
+nav{
+  
+  margin-left: 60px;
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #83e1ff;
+  }
+
+  .next {
+	box-shadow:inset 0px 1px 0px 0px #83e1ff;
+	background:linear-gradient(to bottom, #83e1ff 5%, #83e1ff 100%);
+	background-color:#83e1ff;
+	border-radius:3px;
+	border:1px solid #83e1ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:5px 53px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #83e1ff;
+}
+.next:hover {
+	background:linear-gradient(to bottom, #83e1ff 5%, #83e1ff 100%);
+	background-color:#83e1ff;
+}
+.next:active {
+	position:relative;
+	top:1px;
+}
+
+.previous {
+	box-shadow:inset 0px 1px 0px 0px #83e1ff;
+	background:linear-gradient(to bottom, #83e1ff 5%, #83e1ff 100%);
+	background-color:#83e1ff;
+	border-radius:3px;
+	border:1px solid #83e1ff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	padding:5px 53px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #83e1ff;
+}
+.previous:hover {
+	background:linear-gradient(to bottom, #83e1ff 5%, #83e1ff 100%);
+	background-color:#83e1ff;
+}
+.previous:active {
+	position:relative;
+	top:1px;
+}
+
+footer{
+  color: #16B9ED;
+}
+  
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 480px;
+  font-family: sans-serif;
+  margin: 100px auto;
+  padding: 20px;
+}
+#drop-area.highlight {
+  border-color: purple;
+}
+p {
+  margin-top: 0;
+}
+.my-form {
+  margin-bottom: 10px;
+}
+#gallery {
+  margin-top: 10px;
+}
+#gallery img {
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.button {
+  display: inline-block;
+  padding: 10px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.button:hover {
+  background: #ddd;
+}
+#fileElem {
+  display: none;
+}
